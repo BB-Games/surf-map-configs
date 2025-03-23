@@ -1,0 +1,61 @@
+SURF.Payout = 4000
+SURF.adjustSpawnNoStart = 40
+
+SURF.TrialVectors = {
+	Vector(4092.5676269531, -8263.134765625, 13344.03125),
+	{
+		Vector(4095.7697753906, -8016.3637695313, 13344.03125),
+		Vector(3808.0031738281, -8114.0014648438, 13343.751953125),
+		Vector(3688.3713378906, -8418.7861328125, 13344.03125),
+		Vector(3807.9270019531, -8656.7412109375, 13344.03125),
+		Vector(3991.6726074219, -8765.765625, 13344.03125),
+		Vector(4215.5258789063, -8765.78125, 13344.03125),
+		Vector(4383.86328125, -8656.8916015625, 13344.03125),
+		Vector(4503.5791015625, -8419.18359375, 13344.03125),
+		Vector(4383.8916015625, -8114.1494140625, 13344.03125)
+	},
+
+	useMesh = true,
+	targetZHeight = 13443.55078125
+}
+
+CubeLines={
+	{Vector(4088.1989746094,-8217.3125,13344.03125),Vector(-15550.473632813,8639.96875,-14197.360351563),Vector(-11853.861328125,608.03125,-13575.803710938)},
+}
+
+
+EntCleanup = {
+	"info_player_terrorist",
+	"info_player_counterterrorist",
+	"info_player_start",
+	"info_player_teamspawn",
+	"point_servercommand",
+}
+
+local function NewSpawn()
+	local playerSpawn = ents.Create("bb_player_spawn")
+	playerSpawn:SetPos(Vector(4092.8273925781, -8367.4755859375, 13344.03125))
+	playerSpawn:SetAngles(Angle(0, 90, 0))
+	playerSpawn:Spawn()
+	hook.Run("SURF.UpdateSpawns")
+end
+hook.Add("InitPostEntity", "CreateNewSpawn", NewSpawn)
+
+
+
+SURF.bonusZones = {
+	Vector(-9269.7646484375, -12078.560546875, 11104.03125),
+	Vector(11885.645507813, -11769.759765625, -4031.96875),
+	Vector(-8602.0341796875, -2422.0695800781, 7935.03125),
+	Vector(14782.223632813, 12255.22265625, 15456.03125),
+}
+
+SURF.splitInfo = {
+	{Vector(5631.5048828125,-7903.267578125,7296.03125), Vector(2560.03125,-7749.3481445313,10558.995117188), target = 1, type = 'both'},
+	{Vector(5631.96875,6879.021484375,5696.7583007813), Vector(2560.03125,6762.6782226563,6271.6899414063), target = 2, type = 'both'},
+	{Vector(6524.7905273438,-12048.03125,683.55407714844), Vector(1600.03125,-12379.7578125,-2572.1591796875), target = 3, type = 'both'},
+	{Vector(1921.7427978516,5487.96875,-6145.0073242188), Vector(1791.96875,2928.4990234375,-7505.5581054688), target = 4, type = 'both'},
+}
+
+
+
