@@ -1,0 +1,33 @@
+SURF.Payout = 4000
+SURF.disableNoRunZones = true
+
+SURF.TrialVectors = {Vector(267.26077270508, -13879.127929688, 12798.03125), Vector(-274.96200561523, -13355.592773438, 12796.03125)}
+
+CubeLines={
+	{Vector(2.1773548126221,-14007.57421875,12800.03125),Vector(-1727.9079589844, -6719.96875, -13439.9921875),Vector(1727.2404785156, -10175.684570313, -13373.486328125)},
+}
+
+
+EntCleanup = {
+	"point_servercommand",
+}
+
+local function NewSpawn()
+
+end
+hook.Add("InitPostEntity", "CreateNewSpawn", NewSpawn)
+
+
+
+SURF.bonusZones = {
+
+}
+
+SURF.splitInfo = {
+	{Vector(-2713.2900390625,5336.3608398438,8947.466796875), Vector(2566.1572265625,7737.9946289063,11734.077148438), target = 1, type = 'both'},
+	{Vector(2179.9265136719,4774.5151367188,657.296875), Vector(-1746.9625244141,8346.94140625,3097.6940917969), target = 2, type = 'both'},
+	{Vector(-5588.7739257813,-8036.955078125,-2508.3178710938), Vector(4934.0244140625, -13282.684570313, 710.01672363281), target = 3, type = 'both'},
+}
+
+
+

@@ -1,0 +1,38 @@
+SURF.TrialVectors = {Vector(-6143.5869140625, -511.35119628906, 64.03125), Vector(-6141.5712890625, 510.05615234375, 250.03125)}
+SURF.Payout = 6000
+SURF.disableNoRunZones = true
+
+CubeLines = {
+	{Vector(-5973.0825195313,8.3963413238525,64.03125),Vector(7685.5078125,507.03890991211,-10751.96875),Vector(8643.3212890625,-506.46841430664,-8128.03125)},
+}
+
+EntCleanup = {
+	"info_player_terrorist",
+	"info_player_counterterrorist"
+}
+
+local function NewSpawn()
+	local playerSpawn = ents.Create("bb_player_spawn")
+	playerSpawn:SetPos(Vector(-5649.2109375, -9.8654127120972, 64.03125))
+	playerSpawn:SetAngles(Angle(0, -180, 0))
+	playerSpawn:Spawn()
+	hook.Run("SURF.UpdateSpawns")
+
+end
+hook.Add("InitPostEntity", "CreateNewSpawn", NewSpawn)
+
+SURF.bonusZones = {
+	Vector(13540.982421875, -13944.900390625, 10240.03125),
+	Vector(3335.47265625, -2762.1420898438, 11008.03125),
+	Vector(-14072.470703125, 10911.811523438, -13631.96875),
+	Vector(9067.4765625, -11401.451171875, -11007.96875),
+	Vector(-7480.98828125, -15100.920898438, 14720.03125),
+	Vector(-2328.1206054688, -8.8277740478516, -4783.96875)
+}
+
+SURF.splitInfo = {
+	{Vector(-12480.03125,1473.4168701172,-1794.18359375), Vector(-12156.787109375,-1409.4261474609,-2878.5461425781), target = 1, type = 'both'},
+	{Vector(4602.9770507813,3070.7119140625,-4798.8364257813), Vector(4681.9272460938,-3145.8830566406,-1793.5040283203), target = 2, type = 'both'},
+	{Vector(-637.30334472656,1536.8657226563,-6719.7666015625), Vector(-96.248199462891,-1717.2171630859,-4866.3310546875), target = 3, type = 'both'},
+	{Vector(-12295.405273438,-2042.5106201172,-12479.96875), Vector(-12125.041992188,2047.96875,-8133.6391601563), target = 4, type = 'both'}
+}
