@@ -1,0 +1,105 @@
+[BB] Servers Surf Map Open License (BBSMOL)  
+Version 1.0  
+Last updated: 2025-03-23
+
+This codebase and all associated files (the "Project") are licensed under the terms of the [BB] Servers Surf Map Open License ("BBSMOL").
+
+---
+
+1. Ownership
+
+All original code and content in this repository is either:
+
+- Created and owned by [BB] Servers ("Project Owners"), or  
+- Contributed by third-party Contributors, who retain ownership of their specific contributions.
+
+This does not apply to third-party dependencies, libraries, or underlying language features (see Section 7). Any such components remain governed by their own licenses and are not claimed under this license.
+
+---
+
+2. Permitted Use for the Public
+
+You may:
+
+- View and study the code for non-commercial, personal, or educational purposes.
+- Reuse small portions for non-commercial use only, with clear attribution to the Project and relevant Contributors.
+
+You may not:
+
+- Use any part of the Project, in whole or in part, for commercial purposes without explicit written permission from [BB] Servers.
+- Use or distribute the Project, or substantial portions of it, for commercial gain — including Contributions by others — unless explicitly permitted under the Contributor License Agreement (see Section 3).
+- Omit or obscure attribution notices when reusing the code.
+
+---
+
+3. Contributor License Agreement (CLA)
+
+By submitting any code, documentation, or other material ("Contribution") to this Project, you agree to the following:
+
+- You retain full ownership and commercial rights to your individual Contribution outside the context of this Project.
+- You grant [BB] Servers an irrevocable, worldwide, perpetual, royalty-free, non-exclusive, sublicensable license to use, reproduce, modify, distribute, and commercially use your Contribution as part of this Project or in any derivative work.
+- You affirm that your Contribution is your original work, or that you have sufficient rights to submit and license it under these terms.
+
+Important: As a Contributor, you may not commercially use the Project as a whole, or any part that includes contributions from others, without permission from [BB] Servers. You may only commercially use your own Contribution independently, outside of this Project.
+
+---
+
+4. Commercial Licensing
+
+Any use of this Project or any part of it for commercial purposes — other than by [BB] Servers — requires explicit, written permission from [BB] Servers.
+
+---
+
+5. Limitation of Liability and No Warranty
+
+This Project is provided "as is", without warranty of any kind, express or implied, including but not limited to:
+
+- Any warranties of merchantability, fitness for a particular purpose, title, or non-infringement;
+- Any guarantee that the Project is error-free, complete, secure, or will function as intended.
+
+Under no circumstances shall [BB] Servers or any Contributor be held liable for any damages or losses of any kind — including, but not limited to, direct, indirect, incidental, special, exemplary, or consequential damages — arising from the use of, inability to use, or reliance on this Project, even if advised of the possibility of such damages.
+
+You use this Project at your own risk. By using any part of this codebase, you acknowledge and accept full responsibility for any outcomes or consequences that result from its use, modification, or distribution.
+
+---
+
+6. License Updates
+
+[BB] Servers reserves the exclusive right to update or relicense this Project under new terms in the future, including relaxing or removing existing restrictions (such as those on commercial use or attribution).
+
+Any such updates will be communicated through the Project’s official channels (e.g., repository updates, release notes, or public announcements).
+
+- License updates may be applied retroactively only if the new license explicitly states that it supersedes this version.  
+- [BB] Servers may not retroactively apply any license update that imposes stricter or more restrictive conditions on past Contributions without the Contributor’s explicit consent.
+
+---
+
+7. Third-Party Code and Dependencies
+
+This license applies only to code authored by [BB] Servers and Contributors within this repository.
+
+It does not apply to:
+
+- Any third-party libraries, frameworks, or dependencies used by this Project.
+- Any functions, classes, or APIs provided by the underlying programming language or runtime environment.
+- Any content not created by [BB] Servers or its Contributors.
+
+Such third-party components remain governed by their own respective licenses and terms, which must be followed separately by all users of this Project.
+
+---
+
+8. Attribution Requirements
+
+Any project that includes or builds upon code from this repository and is not authored by [BB] Servers must:
+
+- Include a full, unmodified copy of this license (BBSMOL, Version 1.0) within the project repository or distribution.
+- Clearly reference the [BB] Servers Surf Map Open License (BBSMOL) in any location where the reused code is exposed, rendered, or integrated.
+- Not misrepresent the origin of the reused code.
+- Make a best-effort attempt to credit individual contributors, either through in-code comments or by linking to their associated source code commits.
+
+These requirements apply regardless of whether the reuse is commercial or non-commercial.
+
+---
+
+© 2025 [BB] Servers. All rights reserved.  
+This license is referred to as the [BB] Servers Surf Map Open License (BBSMOL), Version 1.0
